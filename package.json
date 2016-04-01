@@ -1,0 +1,27 @@
+{
+  "name": "jv-array-filter",
+  "version": "1.0.0",
+  "description": "implementing polyfills for Array.prototype.filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjvein/jv-array-filter.git"
+  },
+  "keywords": [
+    "array-filter",
+    "Array.prototype.filter",
+    "[].filter"
+  ],
+  "author": "jjvein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjvein/jv-array-filter/issues"
+  },
+  "homepage": "https://github.com/jjvein/jv-array-filter#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  }
+}

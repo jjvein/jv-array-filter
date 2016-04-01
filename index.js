@@ -16,11 +16,10 @@ module.exports = function(arr, func){
 
   var i, ret = [], len=arr.length, item
   for(i=0; i<len; i++) {
-     item = arr[i]
-     if(hasOwnProperty.call(arr, i)) {
-
-        if(func(item, i, arr)) ret.push(item)
-     }
+    item = arr[i]
+    if(hasOwnProperty.call(arr, i)) {
+      if(func(item, i, arr)) ret.push(item)
+    }
   }
   return ret
 }
