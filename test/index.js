@@ -39,6 +39,13 @@ describe('Test Suite', function(){
     expect(ret).to.contain(9)
 
   })
+
+  it('New Constructor', function(){
+    arr = new Array(3, 4, 5, 6, 7) 
+    ret = jvArrayFilter(arr, func)
+    expect(ret).to.be.an(Array)
+    expect(ret).to.have.length(2)
+  })
 })
 
 
